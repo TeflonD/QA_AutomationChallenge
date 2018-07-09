@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify various scenarios",
+        "description": "",
+        "id": "qa-automation-challenge;verify-various-scenarios",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9002639167,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "that the user has navigated to the Web Application URL",
+            "match": {
+              "location": "QAAutomationSteps.that_the_user_has_navigated_to_the_Web_Application_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10878110,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of the page is titled Where Experiences are Engineered - Valtech",
+            "match": {
+              "location": "QAAutomationSteps.title_of_the_page_is_titled_Where_Experiences_are_Engineered_Valtech()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50213695,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the section at the bottom called Latest News should be displayed",
+            "match": {
+              "location": "QAAutomationSteps.the_section_at_the_bottom_called_Latest_News_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2014140563,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the About link",
+            "match": {
+              "location": "QAAutomationSteps.user_clicks_on_the_About_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7479716852,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on the our officies link",
+            "match": {
+              "location": "QAAutomationSteps.the_user_clicks_on_the_our_officies_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35075221,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the total number of offices is displayed",
+            "match": {
+              "location": "QAAutomationSteps.the_total_number_of_offices_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2446619258,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on Services link and verifies the header",
+            "match": {
+              "location": "QAAutomationSteps.the_user_clicks_on_services_link_and_verifies_the_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 830279186,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "QAAutomationSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "QA Automation Challenge",
+    "description": "",
+    "id": "qa-automation-challenge",
+    "keyword": "Feature",
+    "uri": "C:/Users/KentoValashi/eclipse-workspace/QAAutomationChallengeProject/src/main/java/Features/QAAutomationChallenge.feature"
+  }
+]
