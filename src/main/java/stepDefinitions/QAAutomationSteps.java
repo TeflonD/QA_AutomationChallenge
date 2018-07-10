@@ -2,11 +2,12 @@ package stepDefinitions;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -17,6 +18,7 @@ public class QAAutomationSteps {
 	
 	
 	WebDriver driver;
+	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	
 	@Given("^that the user has navigated to the Web Application URL$")
@@ -48,7 +50,6 @@ public class QAAutomationSteps {
 	}
 	
 	
-<<<<<<< HEAD
 	
 	
 	@Then("^user clicks on the About link and verifies that the H(\\d+) tag is displayed$")
@@ -56,7 +57,16 @@ public class QAAutomationSteps {
 	    
 		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[1]/a/span")).click();
 		WebElement about_header = driver.findElement(By.tagName("h1"));
-		System.out.println("The header tag for about page is " + about_header.getText());
+		System.out.println("The header tag for About page is " + about_header.getText());
+	}
+	
+	
+	@Then("^the user clicks on the Services link and verifies that the H(\\d+) tag is displayed$")
+	public void the_user_clicks_on_the_Services_link_and_verifies_that_the_H_tag_is_displayed(int arg1)  {
+		
+		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[3]/a/span")).click();
+		WebElement services_header = driver.findElement(By.tagName("h1"));
+		System.out.println("The header tag for Services page is " + services_header.getText());
 	}
 	
 	
@@ -65,72 +75,31 @@ public class QAAutomationSteps {
 		
 		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[2]/a/span")).click();
 		WebElement work_header = driver.findElement(By.tagName("h1"));
-		System.out.println("The header tag for work screen is " + work_header.getText());
+		System.out.println("The header tag for Work page is " + work_header.getText());
 	   
-=======
-	@Then("^user clicks on the About link$")
-	public void user_clicks_on_the_About_link()  {
-	    
-		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[1]/a/span")).click();
 	}
 	
 	
-	@Then("^the user clicks on the our officies link$")
-	public void the_user_clicks_on_the_our_officies_link()  {
-	    
-		driver.findElement(By.xpath("//a[contains(text(),'Our offices')]")).click();
->>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
-	}
-	
-	
-	
-	
-	
-<<<<<<< HEAD
-	
-	@Then("^the user clicks on the Services link and verifies that the H(\\d+) tag is displayed$")
-	public void the_user_clicks_on_the_Services_link_and_verifies_that_the_H_tag_is_displayed(int arg1)  {
-		
-		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[3]/a/span")).click();
-		WebElement services_header = driver.findElement(By.tagName("h1"));
-		System.out.println("The header tag for services page is " + services_header.getText());
-	}
-
-=======
-
-	@Then("^the total number of offices is displayed$")
-	public void the_total_number_of_offices_is_displayed() {
-	    
-		List<WebElement> totalOffficeCount = driver.findElements(By.xpath("//img['@680&format=jpg']"));
-		System.out.println("Total number of offices is " + totalOffficeCount.size());
-	}
->>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
-	
-	
-	@Then("^the user clicks on Services link and verify the header$")
-	public void the_user_clicks_on_services_link_and_verify_the_header() {
-		
-		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[3]/a/span")).click();
-		WebElement header_text = driver.findElement(By.tagName("h1"));
-		System.out.println(header_text.getText());
+	@Then("^then user clicks on the About link$")
+	public void then_user_clicks_on_the_About_link() throws Throwable {
+	   
+		WebElement AboutLink = driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[1]/a/span"));
+		AboutLink.click();
+		driver.get("https://www.valtech.com/about/contact-us/");
 		
 	}
 	
 	
-<<<<<<< HEAD
+	
 	@Then("^the user goes to the contact page and verifies the total location count$")
-	public void the_user_goes_to_the_contact_page_and_verifies_the_total_location_count() {
+	public void the_user_goes_to_the_contact_page_and_verifies_the_total_location_count() throws InterruptedException {
 		
-		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[1]/a/span")).click();
-		driver.findElement(By.xpath("//a[contains(text(),'Our offices')]")).click();
+		//driver.findElement(By.xpath("//a[contains(text(),'Our offices')]")).click();
 		List<WebElement> totalOffficeCount = driver.findElements(By.xpath("//img['@680&format=jpg']"));
 		System.out.println("Total number of offices is " + totalOffficeCount.size());
+		
+		
 	}
-	
-	
-=======
->>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
-	
 	
 	
 	
