@@ -94,7 +94,7 @@ public class QAAutomationSteps {
 	@Then("^the user goes to the contact page and verifies the total location count$")
 	public void the_user_goes_to_the_contact_page_and_verifies_the_total_location_count() throws InterruptedException {
 		
-		//driver.findElement(By.xpath("//a[contains(text(),'Our offices')]")).click();
+		
 		List<WebElement> totalOffficeCount = driver.findElements(By.xpath("//img['@680&format=jpg']"));
 		System.out.println("Total number of offices is " + totalOffficeCount.size());
 		

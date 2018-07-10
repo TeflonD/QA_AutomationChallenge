@@ -63,21 +63,21 @@ formatter.match({
   "location": "QAAutomationSteps.that_the_user_has_navigated_to_the_Web_Application_URL()"
 });
 formatter.result({
-  "duration": 7666080080,
+  "duration": 12334084606,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.title_of_the_page_is_titled_Where_Experiences_are_Engineered_Valtech()"
 });
 formatter.result({
-  "duration": 53165537,
+  "duration": 10929449,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.the_section_at_the_bottom_called_Latest_News_should_be_displayed()"
 });
 formatter.result({
-  "duration": 174248358,
+  "duration": 42439497,
   "status": "passed"
 });
 formatter.match({
@@ -90,7 +90,7 @@ formatter.match({
   "location": "QAAutomationSteps.user_clicks_on_the_About_link_and_verifies_that_the_H_tag_is_displayed(int)"
 });
 formatter.result({
-  "duration": 1801523228,
+  "duration": 4751064510,
   "status": "passed"
 });
 formatter.match({
@@ -103,7 +103,7 @@ formatter.match({
   "location": "QAAutomationSteps.the_user_clicks_on_the_Services_link_and_verifies_that_the_H_tag_is_displayed(int)"
 });
 formatter.result({
-  "duration": 2236168838,
+  "duration": 4871308040,
   "status": "passed"
 });
 formatter.match({
@@ -116,28 +116,28 @@ formatter.match({
   "location": "QAAutomationSteps.the_user_clicks_on_Work_link_and_verifies_that_the_H_tag_is_displayed(int)"
 });
 formatter.result({
-  "duration": 8814306675,
+  "duration": 10835649588,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.then_user_clicks_on_the_About_link()"
 });
 formatter.result({
-  "duration": 13442134851,
+  "duration": 8468085702,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.the_user_goes_to_the_contact_page_and_verifies_the_total_location_count()"
 });
 formatter.result({
-  "duration": 38557949,
+  "duration": 44460980,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.close_the_browser()"
 });
 formatter.result({
-  "duration": 854732619,
+  "duration": 853749636,
   "status": "passed"
 });
 });
