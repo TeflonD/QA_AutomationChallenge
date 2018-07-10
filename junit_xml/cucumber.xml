@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="34.505191">
+<testcase classname="QA Automation Challenge" name="Verify various scenarios" time="34.505191">
+<system-out><![CDATA[Given that the user has navigated to the Web Application URL................passed
+When title of the page is titled Where Experiences are Engineered - Valtech.passed
+Then the section at the bottom called Latest News should be displayed.......passed
+Then user clicks on the About link and verifies that the H1 tag is displayed.passed
+Then the user clicks on the Services link and verifies that the H1 tag is displayed.passed
+Then the user clicks on Work link and verifies that the H1 tag is displayed.passed
+Then the user goes to the contact page and verifies the total location count.passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
