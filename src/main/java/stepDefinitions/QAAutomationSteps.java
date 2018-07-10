@@ -80,7 +80,7 @@ public class QAAutomationSteps {
 	}
 	
 	
-	@Then("^then user clicks on the About link$")
+	@Then("^the user clicks on the About link$")
 	public void then_user_clicks_on_the_About_link() throws Throwable {
 	   
 		WebElement AboutLink = driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[1]/a/span"));

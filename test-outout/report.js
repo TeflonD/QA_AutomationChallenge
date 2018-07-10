@@ -46,7 +46,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "then user clicks on the About link",
+  "name": "the user clicks on the About link",
   "keyword": "Then "
 });
 formatter.step({
@@ -63,21 +63,21 @@ formatter.match({
   "location": "QAAutomationSteps.that_the_user_has_navigated_to_the_Web_Application_URL()"
 });
 formatter.result({
-  "duration": 12334084606,
+  "duration": 8347964870,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.title_of_the_page_is_titled_Where_Experiences_are_Engineered_Valtech()"
 });
 formatter.result({
-  "duration": 10929449,
+  "duration": 51911032,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.the_section_at_the_bottom_called_Latest_News_should_be_displayed()"
 });
 formatter.result({
-  "duration": 42439497,
+  "duration": 126257129,
   "status": "passed"
 });
 formatter.match({
@@ -90,7 +90,7 @@ formatter.match({
   "location": "QAAutomationSteps.user_clicks_on_the_About_link_and_verifies_that_the_H_tag_is_displayed(int)"
 });
 formatter.result({
-  "duration": 4751064510,
+  "duration": 1960458601,
   "status": "passed"
 });
 formatter.match({
@@ -103,7 +103,7 @@ formatter.match({
   "location": "QAAutomationSteps.the_user_clicks_on_the_Services_link_and_verifies_that_the_H_tag_is_displayed(int)"
 });
 formatter.result({
-  "duration": 4871308040,
+  "duration": 2353440092,
   "status": "passed"
 });
 formatter.match({
@@ -116,28 +116,28 @@ formatter.match({
   "location": "QAAutomationSteps.the_user_clicks_on_Work_link_and_verifies_that_the_H_tag_is_displayed(int)"
 });
 formatter.result({
-  "duration": 10835649588,
+  "duration": 9396875634,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.then_user_clicks_on_the_About_link()"
 });
 formatter.result({
-  "duration": 8468085702,
+  "duration": 7422316565,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.the_user_goes_to_the_contact_page_and_verifies_the_total_location_count()"
 });
 formatter.result({
-  "duration": 44460980,
+  "duration": 55815907,
   "status": "passed"
 });
 formatter.match({
   "location": "QAAutomationSteps.close_the_browser()"
 });
 formatter.result({
-  "duration": 853749636,
+  "duration": 884369074,
   "status": "passed"
 });
 });
