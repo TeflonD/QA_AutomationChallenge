@@ -12,7 +12,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 10139486582,
+=======
+              "duration": 9002639167,
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +28,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 12131702,
+=======
+              "duration": 10878110,
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +44,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 70925483,
+=======
+              "duration": 50213695,
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
               "status": "passed"
             },
             "line": 7,
@@ -48,6 +60,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2057748282,
               "status": "passed"
             },
@@ -61,11 +74,21 @@
                 }
               ],
               "location": "QAAutomationSteps.user_clicks_on_the_About_link_and_verifies_that_the_H_tag_is_displayed(int)"
+=======
+              "duration": 2014140563,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the About link",
+            "match": {
+              "location": "QAAutomationSteps.user_clicks_on_the_About_link()"
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1662110825,
               "status": "passed"
             },
@@ -79,11 +102,21 @@
                 }
               ],
               "location": "QAAutomationSteps.the_user_clicks_on_the_Services_link_and_verifies_that_the_H_tag_is_displayed(int)"
+=======
+              "duration": 7479716852,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on the our officies link",
+            "match": {
+              "location": "QAAutomationSteps.the_user_clicks_on_the_our_officies_link()"
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 10093267708,
               "status": "passed"
             },
@@ -97,11 +130,21 @@
                 }
               ],
               "location": "QAAutomationSteps.the_user_clicks_on_Work_link_and_verifies_that_the_H_tag_is_displayed(int)"
+=======
+              "duration": 35075221,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the total number of offices is displayed",
+            "match": {
+              "location": "QAAutomationSteps.the_total_number_of_offices_is_displayed()"
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 7304842837,
               "status": "passed"
             },
@@ -109,12 +152,25 @@
             "name": "the user goes to the contact page and verifies the total location count",
             "match": {
               "location": "QAAutomationSteps.the_user_goes_to_the_contact_page_and_verifies_the_total_location_count()"
+=======
+              "duration": 2446619258,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on Services link and verifies the header",
+            "match": {
+              "location": "QAAutomationSteps.the_user_clicks_on_services_link_and_verifies_the_header()"
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3164677451,
+=======
+              "duration": 830279186,
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
               "status": "passed"
             },
             "line": 12,

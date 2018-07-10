@@ -48,6 +48,7 @@ public class QAAutomationSteps {
 	}
 	
 	
+<<<<<<< HEAD
 	
 	
 	@Then("^user clicks on the About link and verifies that the H(\\d+) tag is displayed$")
@@ -66,12 +67,26 @@ public class QAAutomationSteps {
 		WebElement work_header = driver.findElement(By.tagName("h1"));
 		System.out.println("The header tag for work screen is " + work_header.getText());
 	   
+=======
+	@Then("^user clicks on the About link$")
+	public void user_clicks_on_the_About_link()  {
+	    
+		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[1]/a/span")).click();
+	}
+	
+	
+	@Then("^the user clicks on the our officies link$")
+	public void the_user_clicks_on_the_our_officies_link()  {
+	    
+		driver.findElement(By.xpath("//a[contains(text(),'Our offices')]")).click();
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
 	}
 	
 	
 	
 	
 	
+<<<<<<< HEAD
 	
 	@Then("^the user clicks on the Services link and verifies that the H(\\d+) tag is displayed$")
 	public void the_user_clicks_on_the_Services_link_and_verifies_that_the_H_tag_is_displayed(int arg1)  {
@@ -81,6 +96,15 @@ public class QAAutomationSteps {
 		System.out.println("The header tag for services page is " + services_header.getText());
 	}
 
+=======
+
+	@Then("^the total number of offices is displayed$")
+	public void the_total_number_of_offices_is_displayed() {
+	    
+		List<WebElement> totalOffficeCount = driver.findElements(By.xpath("//img['@680&format=jpg']"));
+		System.out.println("Total number of offices is " + totalOffficeCount.size());
+	}
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
 	
 	
 	@Then("^the user clicks on Services link and verify the header$")
@@ -93,6 +117,7 @@ public class QAAutomationSteps {
 	}
 	
 	
+<<<<<<< HEAD
 	@Then("^the user goes to the contact page and verifies the total location count$")
 	public void the_user_goes_to_the_contact_page_and_verifies_the_total_location_count() {
 		
@@ -103,6 +128,8 @@ public class QAAutomationSteps {
 	}
 	
 	
+=======
+>>>>>>> e3b3edf546b99e3d8077c00b03ada6ffc92f195d
 	
 	
 	
