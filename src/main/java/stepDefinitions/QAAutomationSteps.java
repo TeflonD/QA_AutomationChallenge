@@ -74,8 +74,8 @@ public class QAAutomationSteps {
 	}
 	
 	
-	@Then("^the user clicks on Services link and verifies the header$")
-	public void the_user_clicks_on_services_link_and_verifies_the_header() {
+	@Then("^the user clicks on Services link and verify the header$")
+	public void the_user_clicks_on_services_link_and_verify_the_header() {
 		
 		driver.findElement(By.xpath("//*[@id=\"navigationMenuWrapper\"]/div/ul/li[3]/a/span")).click();
 		WebElement header_text = driver.findElement(By.tagName("h1"));
